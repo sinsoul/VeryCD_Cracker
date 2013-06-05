@@ -1,0 +1,15 @@
+{
+	"name": "VeryCD_Cracker",
+	"description": "用于在VeryCD资源页面显示下载链接并去除广告",
+	"version": "2.0",
+	"content_scripts": [
+		{
+		  "matches": ["http://www.verycd.com/topics/*"],
+		  "js": ["verycd_cracker.sinsoul.js"]
+		}
+	],
+	
+	"permissions": ["http://*/*"],
+	"update_url": "http://nh6080.sinaapp.com/VeryCDCrackerUpdate.xml",
+	"manifest_version": 2
+}
